@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/metamins-test-task/static/css/main.d964ba34.chunk.css",
+    "main.js": "/metamins-test-task/static/js/main.b7d1fbb2.chunk.js",
+    "main.js.map": "/metamins-test-task/static/js/main.b7d1fbb2.chunk.js.map",
+    "runtime-main.js": "/metamins-test-task/static/js/runtime-main.011ee560.js",
+    "runtime-main.js.map": "/metamins-test-task/static/js/runtime-main.011ee560.js.map",
+    "static/css/2.0083a93a.chunk.css": "/metamins-test-task/static/css/2.0083a93a.chunk.css",
+    "static/js/2.a0812af3.chunk.js": "/metamins-test-task/static/js/2.a0812af3.chunk.js",
+    "static/js/2.a0812af3.chunk.js.map": "/metamins-test-task/static/js/2.a0812af3.chunk.js.map",
+    "index.html": "/metamins-test-task/index.html",
+    "static/css/2.0083a93a.chunk.css.map": "/metamins-test-task/static/css/2.0083a93a.chunk.css.map",
+    "static/css/main.d964ba34.chunk.css.map": "/metamins-test-task/static/css/main.d964ba34.chunk.css.map",
+    "static/js/2.a0812af3.chunk.js.LICENSE.txt": "/metamins-test-task/static/js/2.a0812af3.chunk.js.LICENSE.txt",
+    "static/media/Logo.ea4e4bd9.svg": "/metamins-test-task/static/media/Logo.ea4e4bd9.svg",
+    "static/media/Icon.scss": "/metamins-test-task/static/media/test.258e5131.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.011ee560.js",
+    "static/css/2.0083a93a.chunk.css",
+    "static/js/2.a0812af3.chunk.js",
+    "static/css/main.d964ba34.chunk.css",
+    "static/js/main.b7d1fbb2.chunk.js"
+  ]
+}
