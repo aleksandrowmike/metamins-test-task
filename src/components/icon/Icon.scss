@@ -1,0 +1,74 @@
+$icons: (
+    "overview": "../../assets/icons/overview.svg", 
+    "cloud": "../../assets/icons/cloud.svg", 
+    "colors": "../../assets/icons/colors.svg",
+    "experiments": "../../assets/icons/experiments.svg",
+    "security": "../../assets/icons/security.svg",
+    "sketch": "../../assets/icons/sketch.svg",
+    "test": "../../assets/icons/test.svg",
+    "ownership": "../../assets/icons/ownership.svg",
+    "right": "../../assets/icons/icon-right.svg",
+    "left": "../../assets/icons/icon-left.svg"
+);
+
+@each $name, $url in $icons {
+    .icon-#{$name} {
+        vertical-align: middle;
+        margin-right: 10px;
+        &:before {
+            display: inline-block;
+            content: url($url);
+            font-size: 14px;
+        }
+    }
+  }
+  .icon-burger-menu {
+    display: none;
+    @media (max-width: 768px) { 
+        display: block;
+    }  
+    width: 30px;
+    height: 30px;
+    position: relative;
+    transform: rotate(0deg);
+    transition: .5s ease-in-out;
+    margin-top: 7px;
+    cursor: pointer;
+    span {
+        display: block;
+        position: absolute;
+        height: 3px;
+        width: 100%;
+        background: rgba($color: #fff, $alpha: .5);
+        border-radius: 9px;
+        opacity: 1;
+        left: 0;
+        transform: rotate(0deg);
+        transition: .25s ease-in-out;
+        &:nth-child(1) {
+            top: 0px;
+        }
+        &:nth-child(2) {
+            top: 10px;
+        }
+        &:nth-child(3) {
+            top: 20px;
+        }
+    }
+    &.open {
+        span {
+            &:nth-child(1) {
+                top: 10px;
+                transform: rotate(135deg);
+            }
+            &:nth-child(2) {
+                opacity: 0;
+                left: -60px;
+            }
+            &:nth-child(3) {
+                top: 10px;
+                transform: rotate(-135deg);
+            }
+        }
+    }
+  }

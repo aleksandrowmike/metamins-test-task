@@ -1,0 +1,25 @@
+.table {
+    thead tr th {
+        white-space: nowrap;
+    }
+    .item {
+        &-phone {
+         white-space: nowrap;   
+        }
+        &-owner {
+            white-space: nowrap; 
+        }
+        &-profits {
+            color: #00CA39;
+            &:before {
+                content: "$";
+            }
+        }
+        &-losses {
+            color: #E44067;
+            &:before {
+                content: "$";
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.pagination {
+    .numberPage {
+        width: 45px;
+        margin: 5px;
+        .input {
+            width: 100%;
+            padding: 5px 10px;
+            border: 2px solid #EEF2F5;
+            border-radius: 5px;
+            background: #EEF2F5;
+            color: #000;
+            outline: none;
+            &:focus {
+                border: 2px solid rgba($color: #9DADB9, $alpha: .2);
+            }
+        }
+    }
+    .devider {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .arrow-right {
+        margin-left: 10px;
+        cursor: pointer;
+        .icon-right {
+            margin-right: 0;
+        }
+    }
+    .arrow-left {
+        cursor: pointer; 
+    }
+}

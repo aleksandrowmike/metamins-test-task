@@ -1,0 +1,28 @@
+.menu {
+    @media (max-width: 768px) { 
+       display: none;
+    }
+    padding: 20px;
+    margin: 0;
+    list-style-type: none;
+    &-item {
+        margin-bottom: 15px;
+        @media (min-width: 768px) and (max-width: 1110px) { 
+            display: flex;
+            justify-content: center;
+            span {
+                display: none;
+            }
+        }
+    }
+    &-link {
+        color: #fff;
+        text-decoration: none;
+        &.active {
+            font-weight: 700;
+        }
+        &:hover {
+            color: rgba($color: #fff, $alpha: .8);
+        }
+    }
+}

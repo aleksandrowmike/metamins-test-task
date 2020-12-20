@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+}
+
+.header {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  .more {
+    border: 2px solid #EEF2F5;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background: #EEF2F5;
+    outline: none;
+    position: relative;
+    margin-right: 10px;
+    &:before {
+      content: "\25A0 \25A0 \25A0";
+      color: #9DADB9;
+    }
+    &:focus {
+      border: 2px solid rgba($color: #9DADB9, $alpha: .2);
+    }
+  }
+  .add {
+    border: 2px solid #10CD45;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background: #10CD45;
+    outline: none;
+    position: relative;
+    color: #fff;
+    &:focus {
+      border: 2px solid rgba($color: #10A73A, $alpha: .2);
+    }
+  }
+}
